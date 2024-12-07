@@ -10,6 +10,7 @@ class Text:
         self.pos = pos
         self.alpha = 255
         self.alpha_speed = 5
+        self.color = color
         
     def draw(self):
         self.display.blit(self.text, self.pos)
@@ -22,3 +23,6 @@ class Text:
         
         self.text.set_alpha(self.alpha)
         self.display.blit(self.text, self.pos)
+        
+    def update(self, text):
+        self.text = self.font.render(text, True, self.color).convert_alpha()
