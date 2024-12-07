@@ -1,4 +1,3 @@
-import pygame as bg
 from scripts.obj import Obj
 from scripts.settings import *
 

@@ -1,4 +1,5 @@
 import pygame
+
 from scripts.obj import Obj
 from scripts.settings import *
 

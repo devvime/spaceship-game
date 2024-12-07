@@ -1,9 +1,11 @@
 import pygame
+
 from scripts.obj import Obj
 from scripts.scene import Scene
 from scripts.text import Text
 from scripts.settings import *
-from scripts.background import Background
+
+from scripts.entities.background import Background
 
 class Menu(Scene):
 

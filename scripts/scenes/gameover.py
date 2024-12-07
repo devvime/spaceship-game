@@ -1,8 +1,9 @@
 import pygame
+
 from scripts.scene import Scene
-from scripts.background import Background
 from scripts.text import Text
 
+from scripts.entities.background import Background
 
 class GameOver(Scene):
 
